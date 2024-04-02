@@ -2,11 +2,35 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=https://aida.de/">
-    <title>Weiterleitung zu AIDA</title>
+    <title>Erbarmung</title>
+    <style>
+        /* Styling for the button */
+        .redirect-button {
+            background-color: #007bff; /* Blue color */
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover effect */
+        .redirect-button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+    </style>
 </head>
 <body>
-    <!-- Hier kannst du optional eine Nachricht oder ein Bild anzeigen lassen, während die Weiterleitung stattfindet -->
-    <p>Bitte warten Sie einen Moment, Sie werden zu AIDA weitergeleitet...</p>
+    <!-- A more visually interesting and blue button for redirection -->
+    <button class="redirect-button" onclick="redirect()">Ich erbarme mich</button>
+
+    <script>
+        // JavaScript-Funktion, die die Weiterleitung durchführt
+        function redirect() {
+            window.location.href = "https://aida.de/";
+        }
+    </script>
 </body>
 </html>
